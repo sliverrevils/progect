@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit/react";
 
 const initialState={
-    auth:''
+    auth:'Test'
 }
 
 export const mainSlice=createSlice({
