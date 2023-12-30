@@ -1,0 +1,50 @@
+*{
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  border: 3px solid rgb(74, 124, 239);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+}
+
+header{
+  border: 3px solid rgb(63, 194, 48);
+  position: relative;
+  height: 10vh;
+}
+
+main{
+  flex: 1 1;
+  position: relative;
+  padding-left: 55px;
+}
+
+aside{
+  border: 3px solid rgb(196, 154, 18);
+  background: rgba(196, 155, 18, 0.285);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  transform: translateX(-80%);
+  transition: all 300ms ease-in-out;
+
+  &:hover{
+    transform: translateX(0%);
+  }
+}
+
+footer{
+  border: 3px solid rgb(31, 124, 147);
+  position: relative;
+
+}
