@@ -1,4 +1,4 @@
-'use client'
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.scss'
@@ -21,8 +21,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <Provider store={store}>
+  return (   
     <html lang="ru">
       <body className={inter.className}>
         <Header />
@@ -32,7 +31,6 @@ export default function RootLayout({
         </Main>
         <Footer />
       </body>
-    </html>
-    </Provider>
+    </html> 
   )
 }
