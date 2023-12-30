@@ -12,10 +12,10 @@ import Redux from '@/components/storeProvider/StoreProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Progect',
-  description: 'Progect app',
-}
+// export const metadata: Metadata = {
+//   title: 'Progect',
+//   description: 'Progect app',
+// }
 
 export default function RootLayout({
   children,
